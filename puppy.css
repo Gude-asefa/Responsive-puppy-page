@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.title,
+ .footer {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    background-color: rgba(23, 23, 183, 0.719);
+
+}
+.title, .footer{
+    padding: 10px 0;
+}
+.banner img{
+    width: 100%;    
+}
+.more{
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-bottom: 30px;
+}
+@media screen and (max-width: 580px){
+    .middle {
+        display: block;
+        text-align: center;
+        margin: 20px auto;
+
+    }
+    .missing{
+        display: none;
+    }
+    .puppy1{
+        margin-bottom: 20px;
+    }
+    .more_puppies{
+        text-align: center;
+            }
+    .more_puppies img{
+        
+        width: 305px;
+        margin-bottom: 20px;
+    }
