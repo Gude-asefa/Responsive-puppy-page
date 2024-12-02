@@ -46,3 +46,38 @@
         width: 305px;
         margin-bottom: 20px;
     }
+}
+@media screen and (min-width: 581px){
+    img{
+        max-width: 100%;
+
+    }
+
+    .m{
+        
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin: 30px 0;
+
+    }
+    .missing{
+        font-size: 5vw;
+        width: 200px;
+        padding: 30px;
+        background-color: pink;
+        margin: 0 15px;    }
+
+    .both{
+    
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+
+    }
+    .p3{
+        margin-right: 25px;
+    }
+
+    
+}
